@@ -79,7 +79,4 @@ con claves foráneas y restricciones `UNIQUE`/`CHECK`. Ver `docs/modelo.md`.
 Las contraseñas se guardan como `SHA-256(sal + contraseña)` con sal aleatoria por usuario.
 (Para un producto real se recomendaría PBKDF2/Argon2.)
 
-## Pendiente / trabajo futuro
 
-- Bono: envío de los datos a una base de datos remota con usuario y contraseña.
-- Ejecución en Raspberry Pi / Jetson (bonificación opcional de la guía).
