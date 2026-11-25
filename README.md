@@ -77,6 +77,6 @@ con claves foráneas y restricciones `UNIQUE`/`CHECK`. Ver `docs/modelo.md`.
 ## Seguridad
 
 Las contraseñas se guardan como `SHA-256(sal + contraseña)` con sal aleatoria por usuario.
-(Para un producto real se recomendaría PBKDF2/Argon2.)
+(Para un producto real se recomendaría PBKDF2/Argon2.).
 
 
