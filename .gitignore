@@ -1,0 +1,12 @@
+build/
+*.o
+moc_*
+ui_*
+qrc_*
+Makefile*
+.qmake.stash
+*.db
+docs/html/
+*.user
+agility_test
+tst_core
